@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsOuCyZNKWUmJHwzA6dbLuwAAAAACAAAAAAAQZgAAAAEAACAAAACkENrl6ELhoaoXdeRLIWbmp+UBoiPmzRp74aQ0bXFmbwAAAAAOgAAAAAIAACAAAACNLtIe4xgeN/hGed/VQjR365OG5T43ohWfN4HrBtaHXIAAAABBHPlHMQqKjvCCtNxpRmzGI5cGiXVadqwDFsZ0paokFRVob88WNmEI5lZ4YvQoyXCJrjLrUiTO49V77Pop19rgGdomqs+oOTiqCv3f4x9XAxCAF2EXXqmptCLjsHwAkaNQhNlfpEN2mscuV0wiI/H0ikvRKb0Vx3JTGIM5I87KN0AAAAAlgJctAgcEogTjvX0gyAVNG0Tt9Uznw7zwo777vvCtrbaGzuwboOIyD3PmusWiwx2NSGENEwN+M9qloD352tzm</EncryptedPassword>
+    <History>True|2022-11-10T19:45:06.2096482Z;True|2022-11-10T16:29:26.6428191-03:00;True|2022-11-10T16:14:37.2955285-03:00;True|2022-11-10T16:02:55.0344779-03:00;True|2022-11-10T16:00:32.5137030-03:00;True|2022-11-10T15:38:47.4477110-03:00;True|2022-11-10T15:29:39.4732507-03:00;False|2022-11-10T15:25:25.9732574-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:applivrosserver.database.windows.net,1433%3bInitial Catalog=applivros_db%3bPersist Security Info=False%3bUser ID=Admin-sql%3bPassword=14582lucasF%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

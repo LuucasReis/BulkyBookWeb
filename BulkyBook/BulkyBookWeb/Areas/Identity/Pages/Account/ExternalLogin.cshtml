@@ -1,0 +1,62 @@
+﻿@page
+@model ExternalLoginModel
+@{
+    ViewData["Title"] = "Registrar";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h2 id="external-login-title">Associe novos dados a sua conta do @Model.ProviderDisplayName.</h2>
+<hr />
+
+<p id="external-login-description" class="text-info">
+    Você foi autenticado com sucesso pelo <strong>@Model.ProviderDisplayName</strong>.
+    Por favor entre com novos dados abaixo e clique no botão registrar.
+</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-page-handler="Confirmation" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating py-2">
+                <input asp-for="Input.Email" class="form-control" autocomplete="email" />
+                <label asp-for="Input.Email" class="form-label"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-2 ">
+                <input asp-for="Input.Name" class="form-control" aria-required="true" />
+                <label asp-for="Input.Name"></label>
+                <span asp-validation-for="Input.Name" class="text-danger"></span>
+            </div>
+            <div class="form-floating  py-2 ">
+                <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" />
+                <label asp-for="Input.PhoneNumber"></label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-2 ">
+                <input asp-for="Input.StreetAddress" class="form-control" aria-required="true" />
+                <label asp-for="Input.StreetAddress"></label>
+                <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-2 ">
+                <input asp-for="Input.City" class="form-control" aria-required="true" />
+                <label asp-for="Input.City"></label>
+                <span asp-validation-for="Input.City" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-2 ">
+                <input asp-for="Input.State" class="form-control" aria-required="true" />
+                <label asp-for="Input.State"></label>
+                <span asp-validation-for="Input.State" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-2 ">
+                <input asp-for="Input.PostalCode" class="form-control" aria-required="true" />
+                <label asp-for="Input.PostalCode"></label>
+                <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
+            </div>
+            <button type="submit" class="w-100 btn btn-primary">Registrar</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

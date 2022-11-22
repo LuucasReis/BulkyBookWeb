@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZxM49rdtFYZtbCIH8t9udljQGucYqmROsyILIOrV260znxJm+9KUCo4OYpMj2+IyiXIlUWXznZDR+1V5t6kuGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucasfernando_frwk\\Documents\\App Web\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\mailkit\\3.4.2\\mailkit.3.4.2.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.10\\microsoft.aspnetcore.cryptography.keyderivation.6.0.10.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\microsoft.aspnetcore.identity.ui.6.0.10.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\6.0.10\\microsoft.extensions.fileproviders.embedded.6.0.10.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.10\\microsoft.extensions.identity.core.6.0.10.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.10\\microsoft.extensions.identity.stores.6.0.10.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\mimekit\\3.4.2\\mimekit.3.4.2.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasfernando_frwk\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
